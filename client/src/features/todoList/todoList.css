@@ -1,0 +1,16 @@
+#todo-list-head{
+    border-bottom: 2px solid black;
+    /* margin: 50px; */
+    position: relative;
+    top: 20px;
+    left: 10px;
+}
+
+.todo-List{
+    margin-top: 50px;
+}
+
+#notodos{
+    font-size: 30px;
+    margin-left: 10px;
+}

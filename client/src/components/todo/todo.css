@@ -1,0 +1,88 @@
+.todo-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+    margin-bottom: 60px;
+    border-bottom: 2px dashed black;
+}
+
+.todo-content p{
+    padding: 20px 10px;
+    width: 80%;
+    display: flex;
+    align-items: center;
+    margin: auto;
+    justify-content: center;
+    border: 1px solid black;
+    border-radius: 5px;
+    font-size: 18px;
+    text-align: center;
+}
+
+.todo-content span{
+    margin: 5px;
+    float: left;
+    font-size: 15px;
+    opacity: 0.8;
+}
+
+.todo-content .todo-btns{
+    display: flex;
+    justify-content: center;
+    margin: 21px;
+}
+
+
+.todo-content .todo-btns button{
+    padding: 8px 40px;
+    margin: 0 10px;
+    background-color: rgb(48, 105, 240);
+    border-color: transparent;
+    color: white;
+    font-size: 16px;
+    letter-spacing: 1px;
+}
+
+#delete-btn:hover{
+    background-color: red;
+}
+
+#edit-btn:hover{
+    background-color: green;
+}
+
+.modal-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.modal-content h3{
+    font-size: 20px;
+    font-weight: 600;
+    margin: 20px 0;
+}
+
+.modal-content input{
+    width: 80%;
+    padding: 10px 50px;
+}
+
+.modal-content .modal-btn-div{
+    display: flex;
+    flex-direction: row;
+    margin: 50px 0;
+
+}
+#modal-btn {
+    padding: 10px 40px;
+    margin: 0 10px;
+    background-color: rgb(48, 105, 240);
+    border-color: transparent;
+    color: white;
+    font-size: 16px;
+    letter-spacing: 1px;
+}

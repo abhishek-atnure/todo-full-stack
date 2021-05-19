@@ -1,0 +1,42 @@
+#intro{
+    text-align: center;
+    margin: 4rem;
+    font-size: 28px;
+}
+
+.welcome-page p{
+    text-align: center;
+    margin: 2rem;
+}
+
+.login-signup{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.welcome-page a {
+    color: white;
+    text-decoration: none;
+}
+
+#click{
+    color: blue;
+}
+
+.login-signup button{
+    padding: 8px 30px;
+    margin-right: 22px;
+    border-color: transparent;
+    background: black;
+    color: white;
+    font-size: 16px;
+}
+
+.background{
+    width: 100%;
+    height: 500px;
+
+    
+}
