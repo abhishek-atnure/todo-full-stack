@@ -20,12 +20,14 @@ export default function Signup({ setAuth }) {
     const handleSubmit = async (e) => {
         e.preventDefault()
         try {
-            const body = { fname, email, password };
+
             const response = await fetch("/api/user/signup",
                 {
                     method: "POST",
                     headers: { "Content-Type": "application/json" },
-                    body: JSON.stringify(body)
+                    body: JSON.stringify(
+                        { fname, email, password }
+                    )
                 })
 
             const data = await response.json();
