@@ -30,7 +30,7 @@ const register = async (req, res, next) => {
         const token = jwtGenrator(createUser.rows[0].id);
         res.json({ token });
     } catch (err) {
-        res.status(500).send("server error");
+
         console.log(err.message);
     }
 };
