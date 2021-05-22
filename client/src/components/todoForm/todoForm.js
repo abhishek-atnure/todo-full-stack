@@ -42,7 +42,7 @@ export default function TodoForm({ setAuth }) {
 
     const handleLogout = () => {
         localStorage.removeItem("token");
-        window.location.reload();
+        window.location="/";
         setAuth(false)
     }
 
