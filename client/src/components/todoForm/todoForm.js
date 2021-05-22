@@ -42,7 +42,7 @@ export default function TodoForm({ setAuth }) {
 
     const handleLogout = () => {
         localStorage.removeItem("token");
-        window.location = "/";
+        // window.location = "/";
         setAuth(false)
     }
 
@@ -77,7 +77,7 @@ export default function TodoForm({ setAuth }) {
         <div className="todo-form">
             <div className="todo-nav">
                 <h3>To <span id="logoSpan">Do</span></h3>
-                <Link><span onClick={handleLogout}>Log Out</span></Link>
+                <Link to="/"><span onClick={handleLogout}>Log Out</span></Link>
             </div>
 
             <div className="todo-add">
