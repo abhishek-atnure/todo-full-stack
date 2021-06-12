@@ -88,6 +88,7 @@ export default function Todo({ todo, user_id }) {
               <h3>Edit todo</h3>
               <input
                 type="text"
+                id="edit-todo"
                 name="description"
                 value={description}
                 onChange={(e) => handleChange(e)}
