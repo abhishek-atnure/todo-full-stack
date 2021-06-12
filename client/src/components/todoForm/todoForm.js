@@ -58,6 +58,10 @@ export default function TodoForm({ setAuth }) {
 
       const data = await response.json();
       setClick(true);
+      setData({
+        description: "",
+        date: "",
+      });
     } catch (error) {
       console.log(error.message);
     }

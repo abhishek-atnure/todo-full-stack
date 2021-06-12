@@ -86,15 +86,16 @@ export default function Todo({ todo, user_id }) {
           >
             <div className="modal-content">
               <h3>Edit todo</h3>
-              <input
-                type="text"
-                id="edit-todo"
-                name="description"
-                value={description}
-                onChange={(e) => handleChange(e)}
-                required
-              ></input>
-
+              <form>
+                <input
+                  type="text"
+                  id="edit-todo"
+                  name="description"
+                  value={description}
+                  onChange={(e) => handleChange(e)}
+                  required
+                ></input>
+              </form>
               <div className="modal-btn-div">
                 <button
                   id="modal-btn"
